@@ -13,7 +13,8 @@
             <h1>Welocme <span></span></h1>
             <p>this is a Admin Page</p>
             <a href="login_form.php" class="btn">Login</a>
-            <a href="register_form.php"></a>
+            <a href="register_form.php" class="btn">Register</a>
+            <a href="logout.php" class="btn">Logout</a>
         </div>
     </div>
 </body>

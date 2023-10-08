@@ -1,4 +1,18 @@
+<?php
 
+if (isset($_POST['simpan'])) {
+    $nilai = $_POST['nilai'];
+    if ($nilai > 90) {
+        echo "Grade A";
+    } elseif ($nilai > 80) {
+        echo "Grade B";
+    } elseif ($nilai >= 75) {
+        echo "Grade C";
+    } else {
+        echo "Anda tidak lulus";
+    }
+}
+?>
 
 
 <!DOCTYPE html>
